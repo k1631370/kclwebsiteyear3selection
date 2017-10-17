@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+h3{
+  font-size: 50%;
+  padding-top: px;
+}
+
+p1{
+font-size: 70%;
+padding: 350px;
+padding-bottom: 1000px;
+
+}
+
+p2 {
+    font-size: 70%;
+    padding-left: 150px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 150px;
+     border: 3px solid black;
+
+
+}
+
+p3 {
+    font-size: 70%;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 30px;
+     border: 3px solid black;
+
+
+
+}
+
+* {
+    box-sizing: border-box;
+
+}set="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+h3{
+  font-size: 50%;
+  padding-top: px;
+}
+
+p1{
+font-size: 70%;
+padding: 350px;
+padding-bottom: 1000px;
+
+}
+
+p2 {
+    font-size: 70%;
+    padding-left: 150px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 150px;
+     border: 3px solid black;
+
+
+}
+
+p3 {
+    font-size: 70%;
+    padding-left: 30px;
+
+body {    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+  margin: 0;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/*  color on hover */
+.topnav a:hover {
+    background-color: #ddd;course:
+Computer Science
+    color: black;
+}
+
+
+.content {
+    background-color: #1E90FF;
+    font-size: 30px;
+    padding: 10px;
+    height: 1000px;
+}
+
+/*  footer */
+.footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="topnav">
+
+<center><a href="#">KEATS</a>
+  <a href="#">Help</a>
+  <a href="#">Contact us</a></center>
+</div>
+
+<div class="content">
+
+
+  <h2><center>CS 3rd Year</center></h2>nav">
+
+<center><a href="#">KEATS</a>
+  <a href="#">Help</a>
+  <a href="#">Contact us</a></center>
+</div>
+
+<div class="content">
+  <h3><center>Module selection Portal.</center></h3>
+  <p1><center>Please select your course:</center></p1>
+  <p2>Computer Science</p2>
+  <right><p3>Computer Science with managment</p3></right>
+
+</div>
+
+<div class="footer">
+  <p>© 2017 King’s College London </p>
+</div>
+
+</body>
+</html>
+
+
