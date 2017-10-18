@@ -2,41 +2,55 @@
 <html lang="en">
 <head>
 
-<title>CSS Template</title>
+<title>Page 1</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 
+h2{
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+
 h3{
   font-size: 50%;
-  padding-top: px;
+  padding-top: 0px;
+  padding-bottom: 50px;
 }
 
 p1{
 font-size: 70%;
 padding: 350px;
-padding-bottom: 1000px;
+
 
 }
 
-p2 {
-    font-size: 70%;
+h4 {
+    font-size: 60%;
     padding-left: 150px;
     padding-bottom: 10px;
     padding-top: 10px;
     padding-right: 150px;
-     border: 3px solid black;
+    border: 3px solid black;
+    width: 500px;
+    margin: auto;
+    margin-bottom: 0;
+    background-color: white;
 
 
 }
 
-p3 {
-    font-size: 70%;
+h5 {
+    font-size: 120%;
     padding-left: 30px;
     padding-bottom: 10px;
     padding-top: 10px;
     padding-right: 30px;
      border: 3px solid black;
+     width: 500px;
+     margin: auto;
+     margin-top: 0px;
+     background-color: white;
 
 
 
@@ -45,36 +59,7 @@ p3 {
 * {
     box-sizing: border-box;
 
-}set="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-
-h3{
-  font-size: 50%;
-  padding-top: px;
 }
-
-p1{
-font-size: 70%;
-padding: 350px;
-padding-bottom: 1000px;
-
-}
-
-p2 {
-    font-size: 70%;
-    padding-left: 150px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    padding-right: 150px;
-     border: 3px solid black;
-
-
-}
-
-p3 {
-    font-size: 70%;
-    padding-left: 30px;
 
 body {    margin-top: 100px;
     margin-bottom: 100px;
@@ -101,8 +86,7 @@ body {    margin-top: 100px;
 
 /*  color on hover */
 .topnav a:hover {
-    background-color: #ddd;course:
-Computer Science
+    background-color: #ddd;
     color: black;
 }
 
@@ -110,14 +94,16 @@ Computer Science
 .content {
     background-color: #1E90FF;
     font-size: 30px;
-    padding: 10px;
-    height: 1000px;
+    padding: 1px;
+    height: 1015px;
 }
 
 /*  footer */
 .footer {
     background-color: #f1f1f1;
     padding: 10px;
+    font-size: 60%;
+
 }
 </style>
 </head>
@@ -126,26 +112,25 @@ Computer Science
 
 <div class="topnav">
 
-<center><a href="#">KEATS</a>
+  <a href="#">KEATS</a>
   <a href="#">Help</a>
-  <a href="#">Contact us</a></center>
+  <a href="#">Contact us</a>
 </div>
 
 <div class="content">
 
 
-  <h2><center>CS 3rd Year</center></h2>nav">
+  <h2><center><strong>CS 3rd Year</strong><br><font size="2">
+  Module selection Portal.<br></center></h2>
 
-<center><a href="#">KEATS</a>
-  <a href="#">Help</a>
-  <a href="#">Contact us</a></center>
-</div>
+
 
 <div class="content">
-  <h3><center>Module selection Portal.</center></h3>
+  
   <p1><center>Please select your course:</center></p1>
-  <p2>Computer Science</p2>
-  <right><p3>Computer Science with managment</p3></right>
+  <h4><center>Computer Science</center></h4>
+  <p1><center>or</center><p1>
+  <h5><center>Computer Science with managment</center></h5>
 
 </div>
 
@@ -155,5 +140,3 @@ Computer Science
 
 </body>
 </html>
-
-
