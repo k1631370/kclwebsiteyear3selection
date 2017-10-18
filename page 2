@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page 2</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+input[type=text], select {
+    width: 30%;
+    padding: 12px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-right: 150px;
+}
+
+input[type=submit] {
+    width: 30%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  /*  margin-left: 155px;*/
+
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+* {
+    box-sizing: border-box;
+  }
+
+h3{
+  font-size: 50%;
+  padding-bottom: 120px;
+}
+
+p4{
+  font-size: 60%;
+  padding: 10px;
+  padding-right: 900px;
+  margin-right: 20px;
+}
+
+
+
+p3 {
+    font-size: 70%;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 30px;
+     border: 4.5px solid black;
+
+}
+
+* {
+    box-sizing: border-box;
+
+}
+
+body {    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+  margin: 0;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/*  color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+.content {
+    background-color: #1E90FF;
+    font-size: 30px;
+    padding: 10px;
+    height: 1550px;
+}
+
+/*  footer */
+.footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="topnav">
+
+<center><a href="#">KEATS</a>
+  <a href="#">Help</a>
+  <a href="#">Contact us</a></center>
+</div>
+
+<div class="content">
+
+
+  <h2><center>CS 3rd Year</center></h2>
+  <h3><center>Module selection Portal.</center></h3>
+
+  <p1><center>Please select your <strong>Semester 1 </strong>Modules:</center><br></p1>
+
+<center>
+  <form action="/action_page.php">
+    <label for="fname">Module 1</label>
+    <select id="country" name="country">
+      <option value="6CCS3AMS - Agents and Multi-Agent Systems">6CCS3AMS - Agents and Multi-Agent Systems</option>
+      <option value="6CCS3CFL - Compiler and Formal Languages">6CCS3CFL - Compiler and Formal Languages</option>
+      <option value="6CCS3COV - Computer Vision">6CCS3COV - Computer Vision</option>
+      <option value="6CCS3CSL - Computer Science Logic">6CCS3CSL - Computer Science Logic</option>
+      <option value="6CCS3HCI - Human-Computer Interaction">6CCS3HCI - Human-Computer Interaction</option>
+      <option value="6CCS3VER - Formal Verification">6CCS3VER - Formal Verification</option>
+      <option value="6CCS3WSN - Algorithms for the World Wide Web and Social Networks">6CCS3WSN - Algorithms for the World Wide Web and Social Networks</option>
+      <option value="6CCS3SMT - Software Measurement and Testing">6CCS3SMT - Software Measurement and Testing</option>
+      <option value="6CCS3GRS - Computer Graphics Systems">6CCS3GRS - Computer Graphics Systems</option>
+      <option value="6CCS3PAL - Parallel Algorithms">6CCS3PAL - Parallel Algorithms</option>
+      <option value="6CCS3AIN - Artificial Intelligence">6CCS3AIN - Artificial Intelligence</option>
+      <option value="6CCS3CIS - Cryptography and Information Security">6CCS3CIS - Cryptography and Information Security</option>
+      <option value="6CCS3AIP - Artificial Intelligence Planning">6CCS3AIP - Artificial Intelligence Planning</option>
+    </select><br>
+
+    <label for="lname">Module 2</label>
+    <select id="country" name="country">
+      <option value="6CCS3AMS - Agents and Multi-Agent Systems">6CCS3AMS - Agents and Multi-Agent Systems</option>
+      <option value="6CCS3CFL - Compiler and Formal Languages">6CCS3CFL - Compiler and Formal Languages</option>
+      <option value="6CCS3COV - Computer Vision">6CCS3COV - Computer Vision</option>
+      <option value="6CCS3CSL - Computer Science Logic">6CCS3CSL - Computer Science Logic</option>
+      <option value="6CCS3HCI - Human-Computer Interaction">6CCS3HCI - Human-Computer Interaction</option>
+      <option value="6CCS3VER - Formal Verification">6CCS3VER - Formal Verification</option>
+      <option value="6CCS3WSN - Algorithms for the World Wide Web and Social Networks">6CCS3WSN - Algorithms for the World Wide Web and Social Networks</option>
+      <option value="6CCS3SMT - Software Measurement and Testing">6CCS3SMT - Software Measurement and Testing</option>
+      <option value="6CCS3GRS - Computer Graphics Systems">6CCS3GRS - Computer Graphics Systems</option>
+      <option value="6CCS3PAL - Parallel Algorithms">6CCS3PAL - Parallel Algorithms</option>
+      <option value="6CCS3AIN - Artificial Intelligence">6CCS3AIN - Artificial Intelligence</option>
+      <option value="6CCS3CIS - Cryptography and Information Security">6CCS3CIS - Cryptography and Information Security</option>
+      <option value="6CCS3AIP - Artificial Intelligence Planning">6CCS3AIP - Artificial Intelligence Planning</option>
+    </select><br>
+
+
+    <label for="country">Module 3</label>
+    <select id="country" name="country">
+      <option value="6CCS3AMS - Agents and Multi-Agent Systems">6CCS3AMS - Agents and Multi-Agent Systems</option>
+      <option value="6CCS3CFL - Compiler and Formal Languages">6CCS3CFL - Compiler and Formal Languages</option>
+      <option value="6CCS3COV - Computer Vision">6CCS3COV - Computer Vision</option>
+      <option value="6CCS3CSL - Computer Science Logic">6CCS3CSL - Computer Science Logic</option>
+      <option value="6CCS3HCI - Human-Computer Interaction">6CCS3HCI - Human-Computer Interaction</option>
+      <option value="6CCS3VER - Formal Verification">6CCS3VER - Formal Verification</option>
+      <option value="6CCS3WSN - Algorithms for the World Wide Web and Social Networks">6CCS3WSN - Algorithms for the World Wide Web and Social Networks</option>
+      <option value="6CCS3SMT - Software Measurement and Testing">6CCS3SMT - Software Measurement and Testing</option>
+      <option value="6CCS3GRS - Computer Graphics Systems">6CCS3GRS - Computer Graphics Systems</option>
+      <option value="6CCS3PAL - Parallel Algorithms">6CCS3PAL - Parallel Algorithms</option>
+      <option value="6CCS3AIN - Artificial Intelligence">6CCS3AIN - Artificial Intelligence</option>
+      <option value="6CCS3CIS - Cryptography and Information Security">6CCS3CIS - Cryptography and Information Security</option>
+      <option value="6CCS3AIP - Artificial Intelligence Planning">6CCS3AIP - Artificial Intelligence Planning</option>
+    </select><br>
+
+    <input type="submit" value="Submit">
+  </form>
+</center>
+    <p2><center>___________________________________________________________________________</center><br></p2>
+    <p2><center>Please select your <strong>Semester 2 </strong>Modules:</center><br></p2>
+    <center>
+    <form action="/action_page.php">
+      <label for="fname">Module 1</label>
+      <select id="country" name="country">
+        <option value="6CCS3DSM - Distributed Systems">6CCS3DSM - Distributed Systems</option>
+        <option value="6CCS3COM - Computational Models">6CCS3COM - Computational Models</option>
+        <option value="6CCS3SAD - Software Architecture and Design">6CCS3SAD - Software Architecture and Design</option>
+        <option value="6CCS3SIA - Software Engineering of Internet Applications">6CCS3SIA - Software Engineering of Internet Applications</option>
+        <option value="6CCS3NSE - Network Security">6CCS3NSE - Network Security</option>
+        <option value="6CCS3OME - Optimisation Methods">6CCS3OME - Optimisation Methods</option>
+        <option value="6CCS3PRE - Pattern Recognition">6CCS3PRE - Pattern Recognition</option>
+        <option value="6CCS3TSP - Text Searching and Processing">6CCS3TSP - Text Searching and Processing</option>
+      </select><br>
+
+        <label for="fname">Module 2</label>
+        <select id="country" name="country">
+          <option value="6CCS3DSM - Distributed Systems">6CCS3DSM - Distributed Systems</option>
+          <option value="6CCS3COM - Computational Models">6CCS3COM - Computational Models</option>
+          <option value="6CCS3SAD - Software Architecture and Design">6CCS3SAD - Software Architecture and Design</option>
+          <option value="6CCS3SIA - Software Engineering of Internet Applications">6CCS3SIA - Software Engineering of Internet Applications</option>
+          <option value="6CCS3NSE - Network Security">6CCS3NSE - Network Security</option>
+          <option value="6CCS3OME - Optimisation Methods">6CCS3OME - Optimisation Methods</option>
+          <option value="6CCS3PRE - Pattern Recognition">6CCS3PRE - Pattern Recognition</option>
+          <option value="6CCS3TSP - Text Searching and Processing">6CCS3TSP - Text Searching and Processing</option>
+        </select><br>
+
+
+          <label for="fname">Module 3</label>
+          <select id="country" name="country">
+            <option value="6CCS3DSM - Distributed Systems">6CCS3DSM - Distributed Systems</option>
+            <option value="6CCS3COM - Computational Models">6CCS3COM - Computational Models</option>
+            <option value="6CCS3SAD - Software Architecture and Design">6CCS3SAD - Software Architecture and Design</option>
+            <option value="6CCS3SIA - Software Engineering of Internet Applications">6CCS3SIA - Software Engineering of Internet Applications</option>
+            <option value="6CCS3NSE - Network Security">6CCS3NSE - Network Security</option>
+            <option value="6CCS3OME - Optimisation Methods">6CCS3OME - Optimisation Methods</option>
+            <option value="6CCS3PRE - Pattern Recognition">6CCS3PRE - Pattern Recognition</option>
+            <option value="6CCS3TSP - Text Searching and Processing">6CCS3TSP - Text Searching and Processing</option>
+          </select><br>
+
+
+        <input type="submit" value="Submit">
+      </center>
+      </form>
+      <p2><center>___________________________________________________________________________                         </center></p2>
+
+  <p4><strong>Note:</strong> you can select up to two optional modules from other level-6 (third year) modules offered by the Department of Informatics (or one module within the Department, and one 15-credit module offered by another department), subject to Departmental approval, as long as in total you take six taught modules (with a balance of three optional modules in each semester).
+
+
+</p4>
+
+
+</div>
+
+<div class="footer">
+  <p>© 2017 King’s College London </p>
+</div>
+
+</body>
+</html>
