@@ -6,6 +6,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 
+<link rel="stylesheet" href="css/submit_javascript.css"/>
+<script src="js/submit_javascript.js">
+
+
+</script>
+
 input[type=text], select {
     width: 30%;
     padding: 12px 10px;
@@ -135,9 +141,13 @@ body {    margin-top: 100px;
   <p1><center>Please select your <strong>Semester 1 </strong>Modules:</center><br></p1>
 
 <center>
-  <form action="/action_page.php">
+
+<form id="id" method="post" action="/y/b/"
+            enctype="multipart/form-data" onsubmit="return confirm('Confirm unit submission choices');">
+
     <label for="fname">Module 1</label>
     <select id="country" name="country">
+
       <option value="6CCS3AMS - Agents and Multi-Agent Systems">6CCS3AMS - Agents and Multi-Agent Systems</option>
       <option value="6CCS3CFL - Compiler and Formal Languages">6CCS3CFL - Compiler and Formal Languages</option>
       <option value="6CCS3COV - Computer Vision">6CCS3COV - Computer Vision</option>
@@ -188,13 +198,16 @@ body {    margin-top: 100px;
       <option value="6CCS3AIP - Artificial Intelligence Planning">6CCS3AIP - Artificial Intelligence Planning</option>
     </select><br>
 
-    <input type="submit" value="Submit">
+    <input id='submitBtn' class="btn btn-primary" type="submit" name="submit" value="Submit" />
+
   </form>
 </center>
     <p2><center>___________________________________________________________________________</center><br></p2>
     <p2><center>Please select your <strong>Semester 2 </strong>Modules:</center><br></p2>
     <center>
-    <form action="/action_page.php">
+  <!--   <form action="/action_page.php"> -->
+<form id="id" method="post" action="/y/b/"
+            enctype="multipart/form-data" onsubmit="return confirm('Confirm unit submission choices');">
       <label for="fname">Module 1</label>
       <select id="country" name="country">
         <option value="6CCS3DSM - Distributed Systems">6CCS3DSM - Distributed Systems</option>
